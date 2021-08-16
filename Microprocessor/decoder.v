@@ -88,6 +88,15 @@ state=0;
 else
 state=7;
 end
+8:begin
+case(ir[17:15])
+0:state=4;
+1:if(Flag[0]==0)
+state=7;
+else
+state=4;
+endcase
+end
 endcase
 end
 
