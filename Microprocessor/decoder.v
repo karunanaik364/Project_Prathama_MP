@@ -55,7 +55,7 @@ if(ready_eu)
 state=5;
 else
 state=2;
-end
+end 
 5: begin
 if(ready_eu)
 state=0;
